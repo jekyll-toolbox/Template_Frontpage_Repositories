@@ -1,21 +1,35 @@
-#!/bin/bash
+#!/usr/local/bin/bash
 
 _IDX=0
 
-for _REP in $(ls -1d ../Learni*)
+for _REP in $(ls -1d ../* | grep -v github.io)
 do
-	_REP="$(basename "$_REP")"
+	_REPO="$(basename "$_REP")"			# Learning-TypeScript_DataStructures-and-Algorithms-01
+	_TEMP="${_REPO%%_*}"				# Learning-TypeScript
 
-	_TXT="${_REP//_/ }"
-	_TXT="${_TXT//-/ }"
-	_TXT="${_TXT#Learning }"
+	if [[ "$_TEMP" == "$_REP" ]]; then
+		_SUBTITLE="$_TEMP"
+	else
+		_SUBTITLE="${_REPO#*_}"				# DataStructures-and-Algorithms-01
+		_SUBTITLE="${_SUBTITLE/-/ }"			# DataStructures and Algorithms 01
+		_TYPE="${_TEMP%%-*}"
+		_LANG="${_TEMP#*-}"
+
+		if [[ "$_TYPE" = "$_LANG" ]]; then
+			_LANG=""
+			_TITLE="$_TYPE"
+		else
+			_TITLE="$_TYPE $_LANG"
+		fi
+	fi
 
 	((_IDX=$_IDX + 1))
 
-	echo "- title: \"$_TXT\""
-  	echo "  link: https://github.com/ionic-training/$_REP"
-  	echo "  text: \"Learning the basics of JavaScript\""
-  	echo "  img: ${_IDX}.jpg"
-	echo "  "
+	echo "- title: \"$_TITLE\""
+	echo "  subtitle: \"$_SUBTITLE\""
+	echo "  link: https://github.com/ionic-training/$_REPO"
+	echo "  lang: $_LANG"
+	echo "  img: ${_LANG,,}.png"
+	echo " "
 
 done 
