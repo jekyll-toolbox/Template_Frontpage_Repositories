@@ -1,0 +1,21 @@
+#!/bin/bash
+
+_IDX=0
+
+for _REP in $(ls -1d ../Learni*)
+do
+	_REP="$(basename "$_REP")"
+
+	_TXT="${_REP//_/ }"
+	_TXT="${_TXT//-/ }"
+	_TXT="${_TXT#Learning }"
+
+	((_IDX=$_IDX + 1))
+
+	echo "- title: \"$_TXT\""
+  	echo "  link: https://github.com/ionic-training/$_REP"
+  	echo "  text: \"Learning the basics of JavaScript\""
+  	echo "  img: ${_IDX}.jpg"
+	echo "  "
+
+done 

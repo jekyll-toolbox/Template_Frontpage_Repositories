@@ -1,16 +1,170 @@
-- title: "Learning JavaScript"
+- title: "30 ionic projects in 30 days"
+  link: https://github.com/ionic-training/Learning-30-ionic-projects-in-30-days
   text: "Learning the basics of JavaScript"
   img: 1.jpg
   
-- title: "Learning TypeScript"
+- title: "Algorithms"
+  link: https://github.com/ionic-training/Learning-Algorithms
   text: "Learning the basics of JavaScript"
   img: 2.jpg
   
-- title: "Learning HTML and CSS"
+- title: "Algorithms in Javascript"
+  link: https://github.com/ionic-training/Learning-Algorithms-in-Javascript
   text: "Learning the basics of JavaScript"
-  img: 3jpg
+  img: 3.jpg
   
-- title: "Learning Ionic"
+- title: "Algorithms in Typescript"
+  link: https://github.com/ionic-training/Learning-Algorithms-in-Typescript
   text: "Learning the basics of JavaScript"
   img: 4.jpg
+  
+- title: "CSS You Dont Need JavaScript"
+  link: https://github.com/ionic-training/Learning-CSS-You-Dont-Need-JavaScript
+  text: "Learning the basics of JavaScript"
+  img: 5.jpg
+  
+- title: "Clean Code Javascript"
+  link: https://github.com/ionic-training/Learning-Clean-Code-Javascript
+  text: "Learning the basics of JavaScript"
+  img: 6.jpg
+  
+- title: "Data Structure and Algorithms with ES6"
+  link: https://github.com/ionic-training/Learning-Data-Structure-and-Algorithms-with-ES6
+  text: "Learning the basics of JavaScript"
+  img: 7.jpg
+  
+- title: "Data Structures and Algorithms for JavaScript"
+  link: https://github.com/ionic-training/Learning-Data-Structures-and-Algorithms-for-JavaScript
+  text: "Learning the basics of JavaScript"
+  img: 8.jpg
+  
+- title: "Data Structures for JavaScript"
+  link: https://github.com/ionic-training/Learning-Data-Structures-for-JavaScript
+  text: "Learning the basics of JavaScript"
+  img: 9.jpg
+  
+- title: "Data Structures in JavaScript"
+  link: https://github.com/ionic-training/Learning-Data-Structures-in-JavaScript
+  text: "Learning the basics of JavaScript"
+  img: 10.jpg
+  
+- title: "Data Structures in TypeScript"
+  link: https://github.com/ionic-training/Learning-Data-Structures-in-TypeScript
+  text: "Learning the basics of JavaScript"
+  img: 11.jpg
+  
+- title: "DataStructures"
+  link: https://github.com/ionic-training/Learning-DataStructures
+  text: "Learning the basics of JavaScript"
+  img: 12.jpg
+  
+- title: "Documentation"
+  link: https://github.com/ionic-training/Learning-Documentation
+  text: "Learning the basics of JavaScript"
+  img: 13.jpg
+  
+- title: "HTML CSS"
+  link: https://github.com/ionic-training/Learning-HTML-CSS
+  text: "Learning the basics of JavaScript"
+  img: 14.jpg
+  
+- title: "Ionic"
+  link: https://github.com/ionic-training/Learning-Ionic
+  text: "Learning the basics of JavaScript"
+  img: 15.jpg
+  
+- title: "Ionic Fullstack Course4"
+  link: https://github.com/ionic-training/Learning-Ionic-Fullstack-Course4
+  text: "Learning the basics of JavaScript"
+  img: 16.jpg
+  
+- title: "Ionic3"
+  link: https://github.com/ionic-training/Learning-Ionic3
+  text: "Learning the basics of JavaScript"
+  img: 17.jpg
+  
+- title: "Ionic3 OLD"
+  link: https://github.com/ionic-training/Learning-Ionic3-OLD
+  text: "Learning the basics of JavaScript"
+  img: 18.jpg
+  
+- title: "Ionic4"
+  link: https://github.com/ionic-training/Learning-Ionic4
+  text: "Learning the basics of JavaScript"
+  img: 19.jpg
+  
+- title: "JavaScript Fundamentals"
+  link: https://github.com/ionic-training/Learning-JavaScript-Fundamentals
+  text: "Learning the basics of JavaScript"
+  img: 20.jpg
+  
+- title: "JavaScript Koans lab javascript"
+  link: https://github.com/ionic-training/Learning-JavaScript-Koans-lab-javascript
+  text: "Learning the basics of JavaScript"
+  img: 21.jpg
+  
+- title: "JavaScript Koans refactoring koans js"
+  link: https://github.com/ionic-training/Learning-JavaScript-Koans-refactoring-koans-js
+  text: "Learning the basics of JavaScript"
+  img: 22.jpg
+  
+- title: "JavaScript You Dont Know JS"
+  link: https://github.com/ionic-training/Learning-JavaScript-You-Dont-Know-JS
+  text: "Learning the basics of JavaScript"
+  img: 23.jpg
+  
+- title: "JavaScript functional javascript koans"
+  link: https://github.com/ionic-training/Learning-JavaScript-functional-javascript-koans
+  text: "Learning the basics of JavaScript"
+  img: 24.jpg
+  
+- title: "JavaScript in 30 Days"
+  link: https://github.com/ionic-training/Learning-JavaScript-in-30-Days
+  text: "Learning the basics of JavaScript"
+  img: 25.jpg
+  
+- title: "Javascript 30 seconds of code"
+  link: https://github.com/ionic-training/Learning-Javascript-30-seconds-of-code
+  text: "Learning the basics of JavaScript"
+  img: 26.jpg
+  
+- title: "Javascript 33 Javascript Concepts"
+  link: https://github.com/ionic-training/Learning-Javascript-33-Javascript-Concepts
+  text: "Learning the basics of JavaScript"
+  img: 27.jpg
+  
+- title: "Javascript Anomaly"
+  link: https://github.com/ionic-training/Learning-Javascript-Anomaly
+  text: "Learning the basics of JavaScript"
+  img: 28.jpg
+  
+- title: "Javascript By Koans"
+  link: https://github.com/ionic-training/Learning-Javascript-By-Koans
+  text: "Learning the basics of JavaScript"
+  img: 29.jpg
+  
+- title: "Javascript Datastructures Algorithms"
+  link: https://github.com/ionic-training/Learning-Javascript-Datastructures-Algorithms
+  text: "Learning the basics of JavaScript"
+  img: 30.jpg
+  
+- title: "Javascript Curriculum"
+  link: https://github.com/ionic-training/Learning-Javascript_Curriculum
+  text: "Learning the basics of JavaScript"
+  img: 31.jpg
+  
+- title: "Mathematics Fast"
+  link: https://github.com/ionic-training/Learning-Mathematics-Fast
+  text: "Learning the basics of JavaScript"
+  img: 32.jpg
+  
+- title: "TypeScript Algorithms and Data Structures"
+  link: https://github.com/ionic-training/Learning-TypeScript-Algorithms-and-Data-Structures
+  text: "Learning the basics of JavaScript"
+  img: 33.jpg
+  
+- title: "Javascript 30 seconds of code"
+  link: https://github.com/ionic-training/Learning_Javascript-30-seconds-of-code
+  text: "Learning the basics of JavaScript"
+  img: 34.jpg
   
