@@ -1,1 +1,2 @@
-# ionic-training.github.io
+# Ionic Traning
+
