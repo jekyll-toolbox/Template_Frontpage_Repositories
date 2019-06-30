@@ -1,19 +1,19 @@
 - title: Learn
   img: 1.jpg
   subtitle: 
-  footer: ""
-  text: "First step to sucess: Learn"
+  link: "learn.html"
+  text: "Learn with online samples and course"
 
 - title: Practice
   img: 2.jpg
   subtitle: ""
-  footer: ""
-  text: "Repeat and repeat and repeat"
+  link: "practice.html"
+  text: "Practice, Practice, Practice"
 
 - title: Test
   img: 1.jpg
   subtitle: ""
-  footer: ""
-  text: "Check your progress: Test"
+  link: "test.html"
+  text: "Test your code with Unit testing and Koans."
 
 

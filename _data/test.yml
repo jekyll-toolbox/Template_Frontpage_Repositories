@@ -1,19 +1,25 @@
-- title: "Learning JavaScript Koans lab javascript"
-  link: https://github.com/ionic-training/Learning-JavaScript-Koans-lab-javascript
-  text: "Learning the basics of JavaScript"
-  img: 21.jpg
+- title: "Koans Javascript"
+  subtitle: "01"
+  link: https://github.com/ionic-training/Koans-Javascript_01
+  lang: Javascript
+  img: javascript.png
   
-- title: "Learning JavaScript Koans refactoring-koans-js"
-  link: https://github.com/ionic-training/Learning-JavaScript-Koans-refactoring-koans-js
-  text: "Learning the basics of JavaScript"
-  img: 22.jpg
-  
-- title: "Learning-JavaScript-You-Dont-Know-JS"
-  link: https://github.com/ionic-training/Learning-JavaScript-You-Dont-Know-JS
-  text: "Learning the basics of JavaScript"
-  img: 23.jpg
-  
-- title: "Learning-JavaScript-functional-javascript-koans"
-  link: https://github.com/ionic-training/Learning-JavaScript-functional-javascript-koans
-  text: "Learning the basics of JavaScript"
-  img: 24.jpg
+- title: "Koans JavaScript"
+  subtitle: "02"
+  link: https://github.com/ionic-training/Koans-JavaScript_02
+  lang: JavaScript
+  img: javascript.png
+ 
+- title: "Koans JavaScript"
+  subtitle: "Functional Koans"
+  link: https://github.com/ionic-training/Koans-JavaScript_Functional-Koans
+  lang: JavaScript
+  img: javascript.png
+ 
+- title: "Koans JavaScript"
+  subtitle: "Refactoring Koans"
+  link: https://github.com/ionic-training/Koans-JavaScript_Refactoring-Koans
+  lang: JavaScript
+  img: javascript.png
+
+
