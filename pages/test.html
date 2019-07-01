@@ -1,27 +1,28 @@
 ---
 layout: page
-title: Learning Ionic
-numberofcols: 4
+title: Test
 ---
+{% assign images = site.url |  append:  '/' | append: site.baseurl | append: '/assets/img' %}
+
+{% case page.numberofcols %}
+{% when 1 %}{% assign colclass = 'col-md-7' %}
+{% when 2 %}{% assign colclass = 'col-lg-6                  ' %}
+{% when 3 %}{% assign colclass = 'col-lg-4          col-sm-6' %}
+{% when 4 %}{% assign colclass = 'col-lg-3 col-md-4 col-sm-6' %}
+{% else   %}{% assign colclass = 'col-lg-3 col-md-4 col-sm-6' %}
+{% endcase %}
+
 <div class="container">
-    <h4>&nbsp;</h4>
+    <h4>Repositories with type {{ page.category }}</h4>
     {% include component/breadcrumb.html %}
 
-    {% assign images = site.url |  append:  '/' | append: site.baseurl | append: '/assets/img/repositories' %}
-
-    {% case page.numberofcols %}
-    {% when 1 %}{% assign colclass = 'col-md-7' %}
-    {% when 2 %}{% assign colclass = 'col-lg-6                  ' %}
-    {% when 3 %}{% assign colclass = 'col-lg-4          col-sm-6' %}
-    {% when 4 %}{% assign colclass = 'col-lg-3 col-md-4 col-sm-6' %}
-    {% else   %}{% assign colclass = 'col-lg-3 col-md-4 col-sm-6' %}
-    {% endcase %}
-
     <div class="row">
-        {% for item in site.data.test %}
+        {% assign items = site.data.repositories | where: "category", "test" | sort: "title" %}
+        {% for item in items %}
         <div class="{{ colclass }} portfolio-item">
             <div class="card h-100">
-                <a href="{{ item.link }}""><img class="img-fluid rounded mb-3 mb-md-0" src="{{ images }}/{{ item.img | downcase }}" alt=""></a>
+                <a href="{{ item.link }}""><img class=" img-fluid rounded mb-3 mb-md-0"
+                    src="{{ images }}/{{ item.img | downcase }}" alt=""></a>
                 <div class="card-body">
                     <h4 class="card-title"><a href="#">{{ item.title }}</a></h4>
                     <h5>{{ item.subtitle }}</h5>
@@ -31,5 +32,4 @@ numberofcols: 4
         </div>
         {% endfor %}
     </div>
-
 </div>
