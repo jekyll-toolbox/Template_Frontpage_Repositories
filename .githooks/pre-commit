@@ -1,0 +1,48 @@
+#!/bin/sh
+#
+
+_BRANCHPATH=$(git symbolic-ref -q HEAD)
+_BRANCHNAME=${_BRANCHPATH##*/}
+
+_TIMESTAMP="$(date '+%Y-%m-%d %H:%M:%S')"
+
+echo "HOOK      : $0"
+echo "PARAMETER : '$*''"
+echo "BRANCHPATH: $_BRANCHPATH"
+echo "BRANCHNAME: $_BRANCHNAME"
+
+LOG() {
+    [[ "$GIT_COMMIT_DETAILED_LOGGING" == "YES" ]] && echo "LOG: $*"
+}
+
+REPLACE()
+{
+   local _TYP;   _TYP="$1"; shift
+   local _TAG;   _TAG="$1"; shift
+   local _WITH; _WITH="$1"; shift
+   local _FILE; _FILE="$1"; shift
+
+   case "$_TYP" in
+      PYTHON)   perl -pi -e 's/(\s*)(__DEPLOY_'${_TAG}'\s*=\s*)(".+")/${1}${2}"'"${_WITH}"'"/' "${_FILE}"
+                ;;
+      *)        LOG "Undefined typ '$TYP' for file $_FILE"
+                ;;
+   esac
+
+   rm -f "${_FILE}.bak"
+}
+
+LOG "working on branch $_BRANCH"
+
+for _FILE in $(git diff-index --name-status --cached HEAD | grep -v ^D | cut -c3-)
+do
+    LOG "checking: $_FILE"
+
+    # Only examine known text files
+    if [[ "$_FILE" =~ [.](py)$ ]]; then
+        LOG "patching: $_FILE"
+
+        REPLACE PYTHON TAG       "$_BRANCHNAME" "$_FILE"
+        REPLACE PYTHON TIMESTAMP "$_TIMESTAMP"  "$_FILE"
+    fi
+done

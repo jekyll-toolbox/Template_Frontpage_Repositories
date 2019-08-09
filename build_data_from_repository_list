@@ -10,8 +10,8 @@ do
 	if [[ "$_TEMP" == "$_REP" ]]; then
 		_SUBTITLE="$_TEMP"
 	else
-		_SUBTITLE="${_REPO#*_}"				# DataStructures-and-Algorithms-01
-		_SUBTITLE="${_SUBTITLE/-/ }"			# DataStructures and Algorithms 01
+		_SUBTITLE="${_REPO#*_}"			# DataStructures-and-Algorithms-01
+		_SUBTITLE="${_SUBTITLE/-/ }"	# DataStructures and Algorithms 01
 		_TYPE="${_TEMP%%-*}"
 		_LANG="${_TEMP#*-}"
 
