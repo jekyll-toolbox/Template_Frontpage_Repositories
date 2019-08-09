@@ -1,5 +1,6 @@
 #!/usr/local/bin/bash
 
+_BASE=https://github.com/jekyll-toolbox
 _IDX=0
 
 for _REP in $(ls -1d ../* | grep -v github.io)
@@ -11,9 +12,12 @@ do
 		_SUBTITLE="$_TEMP"
 	else
 		_SUBTITLE="${_REPO#*_}"			# DataStructures-and-Algorithms-01
-		_SUBTITLE="${_SUBTITLE/-/ }"	# DataStructures and Algorithms 01
+		_SUBTITLE="${_SUBTITLE//-/ }"	# DataStructures and Algorithms 01
+
 		_TYPE="${_TEMP%%-*}"
+
 		_LANG="${_TEMP#*-}"
+		_LANG="default"
 
 		if [[ "$_TYPE" = "$_LANG" ]]; then
 			_LANG=""
@@ -27,9 +31,10 @@ do
 
 	echo "- title: \"$_TITLE\""
 	echo "  subtitle: \"$_SUBTITLE\""
-	echo "  link: https://github.com/ionic-training/$_REPO"
+	echo "  link: $_BASE/$_REPO"
 	echo "  lang: $_LANG"
 	echo "  img: ${_LANG,,}.png"
-	echo " "
+	echo "  category: learn"
+	echo ""
 
-done 
+done  > _data/repositories.yml

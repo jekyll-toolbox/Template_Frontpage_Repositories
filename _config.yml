@@ -1,6 +1,6 @@
 # Site
-name: 'Ionic Training'
-description: 'Ionic Training - Tips, Tricks, Samples and more'
+name: 'Full Stack - Toolbox'
+description: 'Full Stack Toolbox - Tips, Tricks, Samples and more'
 baseurl: '/'
 
 include: ["_pages"]
