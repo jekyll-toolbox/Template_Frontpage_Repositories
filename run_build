@@ -59,17 +59,17 @@ do
 
 	#
 	_CAT="${_HDR,,}"
-	[[ "learning"		=~ "$_CAT"		]] && _CAT=learn		&& _DBG=${_DBG}l
-	[[ "koans|test"		=~ "$_CAT"		]] && _CAT=test			&& _DBG=${_DBG}k
-	[[ "course|working"	=~ "$_CAT"		]] && _CAT=practice		&& _DBG=${_DBG}c
-	[[ "workshop"		=~ "$_CAT"		]] && _CAT=practice		&& _DBG=${_DBG}w
-	[[ "missing"		=~ "$_CAT"		]] && _CAT=default		&& _DBG=${_DBG}m
-	[[ "theme"			=~ "$_CAT"		]] && _CAT=bootstrap	&& _DBG=${_DBG}t
+	[[ "learning"		=~ "$_CAT"		]] && _CAT=learn			&& _DBG=${_DBG}l
+	[[ "koans|test"		=~ "$_CAT"		]] && _CAT=test				&& _DBG=${_DBG}k
+	[[ "course|working"	=~ "$_CAT"		]] && _CAT=practice			&& _DBG=${_DBG}c
+	[[ "workshop"		=~ "$_CAT"		]] && _CAT=practice			&& _DBG=${_DBG}w
+	[[ "missing"		=~ "$_CAT"		]] && _CAT=default			&& _DBG=${_DBG}m
+	[[ "theme"			=~ "$_CAT"		]] && _CAT=bootstrap		&& _DBG=${_DBG}t
 
 	_IMG="missing.png"
-	[[ -f "assets/img/${_CAT}.png"		]] && _IMG=${_CAT}.png && _DBG=${_DBG}_1
-	[[ -f "assets/img/${_HDR,,}.png"	]] && _IMG=${_HDR,,}.png && _DBG=${_DBG}_2
-	[[ -f "assets/img/${_LNG}.png"		]] && _IMG=${_LNG}.png && _DBG=${_DBG}_3
+	[[ -f "assets/img/${_CAT}.png"		]] && _IMG=${_CAT}.png		&& _DBG=${_DBG}_1
+	[[ -f "assets/img/${_HDR,,}.png"	]] && _IMG=${_HDR,,}.png	&& _DBG=${_DBG}_2
+	[[ -f "assets/img/${_LNG}.png"		]] && _IMG=${_LNG}.png		&& _DBG=${_DBG}_3
 
 	#
 	[[ "$_HDR" == "Working" ]] && set +x
