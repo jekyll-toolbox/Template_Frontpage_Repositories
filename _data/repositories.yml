@@ -1,25 +1,31 @@
+- title: "Creating"
+  subtitle: "Creating a Jekyll Template from Scratch"
+  text: ""
+  link: https://github.com/jekyll-toolbox/Creating-a-Jekyll-Template-from-Scratch
+  lang: a-jekyll-template-from-scratch
+  img: missing.png
+  category: creating
+  summary: C=creating | I=missing.png | T=Creating | S=Creating a Jekyll Template from Scratch | R=Creating-a-Jekyll-Template-from-Scratch | DEBUG=
+
+#
 - title: "Learning"
   subtitle: "Learning Ionic4"
   text: ""
   link: https://github.com/ionic-training/Learning-Ionic4
   lang: ionic4
   img: ionic4.png
-  rep: /CLOUD/Development.Jekyll/Repositories.FromGithub/repositories/jekyll-toolbox/Learning-Ionic4
-  dir: ionic-training/Learning-Ionic4
-  usr: ionic-training
   category: learn
+  summary: C=learn | I=ionic4.png | T=Learning | S=Learning Ionic4 | R=Learning-Ionic4 | DEBUG=l_2_3
 
 #
 - title: "Template"
-  subtitle: "Frontpage_Repositories"
-  text: ""
+  subtitle: "Frontpage Repositories"
+  text: "Yekyll Template for Github Pages Dashboard<br>"
   link: https://github.com/jekyll-toolbox/Template_Frontpage_Repositories
   lang: template
   img: missing.png
-  rep: /CLOUD/Development.Jekyll/Repositories.FromGithub/repositories/jekyll-toolbox/Template_Frontpage_Repositories
-  dir: jekyll-toolbox/Template_Frontpage_Repositories
-  usr: jekyll-toolbox
   category: template
+  summary: C=template | I=missing.png | T=Template | S=Frontpage Repositories | R=Template_Frontpage_Repositories | DEBUG=
 
 #
 - title: "Theme"
@@ -27,11 +33,9 @@
   text: ""
   link: https://github.com/jekyll-toolbox/Theme_phantom
   lang: theme
-  img: missing.png
-  rep: /CLOUD/Development.Jekyll/Repositories.FromGithub/repositories/jekyll-toolbox/Theme_phantom
-  dir: jekyll-toolbox/Theme_phantom
-  usr: jekyll-toolbox
-  category: theme
+  img: bootstrap.png
+  category: bootstrap
+  summary: C=bootstrap | I=bootstrap.png | T=Theme | S=phantom | R=Theme_phantom | DEBUG=t_1
 
 #
 - title: "Theme"
@@ -39,11 +43,19 @@
   text: ""
   link: https://github.com/jekyll-toolbox/Theme_so-simple
   lang: theme
-  img: missing.png
-  rep: /CLOUD/Development.Jekyll/Repositories.FromGithub/repositories/jekyll-toolbox/Theme_so-simple
-  dir: jekyll-toolbox/Theme_so-simple
-  usr: jekyll-toolbox
-  category: theme
+  img: bootstrap.png
+  category: bootstrap
+  summary: C=bootstrap | I=bootstrap.png | T=Theme | S=so simple | R=Theme_so-simple | DEBUG=t_1
+
+#
+- title: "Working"
+  subtitle: "Working with Jekyll"
+  text: ""
+  link: https://github.com/jekyll-toolbox/Working-with-Jekyll
+  lang: with-jekyll
+  img: working.png
+  category: practice
+  summary: C=practice | I=working.png | T=Working | S=Working with Jekyll | R=Working-with-Jekyll | DEBUG=c_2
 
 #
 - title: "awesome"
@@ -51,11 +63,139 @@
   text: ""
   link: https://github.com/bootstrap-toolbox/awesome-bootstrap-checkbox
   lang: bootstrap-checkbox
-  img: awesome
-  rep: /CLOUD/Development.Jekyll/Repositories.FromGithub/repositories/jekyll-toolbox/awesome-bootstrap-checkbox
-  dir: bootstrap-toolbox/awesome-bootstrap-checkbox
-  usr: bootstrap-toolbox
-  category: learn
+  img: awesome.png
+  category: awesome
+  summary: C=awesome | I=awesome.png | T=awesome | S=awesome bootstrap checkbox | R=awesome-bootstrap-checkbox | DEBUG=_1_2
+
+#
+- title: "jekyll"
+  subtitle: "jekyll toolbox"
+  text: ""
+  link: https://github.com/jekyll-toolbox/jekyll-toolbox
+  lang: toolbox
+  img: jekyll.png
+  category: jekyll
+  summary: C=jekyll | I=jekyll.png | T=jekyll | S=jekyll toolbox | R=jekyll-toolbox | DEBUG=_1_2
+
+#
+- title: "startbootstrap"
+  subtitle: "startbootstrap agency"
+  text: ""
+  link: https://github.com/jekyll-toolbox/startbootstrap-agency
+  lang: agency
+  img: startbootstrap.png
+  category: startbootstrap
+  summary: C=startbootstrap | I=startbootstrap.png | T=startbootstrap | S=startbootstrap agency | R=startbootstrap-agency | DEBUG=_1_2
+
+#
+- title: "startbootstrap"
+  subtitle: "startbootstrap business casual"
+  text: ""
+  link: https://github.com/jekyll-toolbox/startbootstrap-business-casual
+  lang: business-casual
+  img: startbootstrap.png
+  category: startbootstrap
+  summary: C=startbootstrap | I=startbootstrap.png | T=startbootstrap | S=startbootstrap business casual | R=startbootstrap-business-casual | DEBUG=_1_2
+
+#
+- title: "startbootstrap"
+  subtitle: "startbootstrap coming soon"
+  text: ""
+  link: https://github.com/jekyll-toolbox/startbootstrap-coming-soon
+  lang: coming-soon
+  img: startbootstrap.png
+  category: startbootstrap
+  summary: C=startbootstrap | I=startbootstrap.png | T=startbootstrap | S=startbootstrap coming soon | R=startbootstrap-coming-soon | DEBUG=_1_2
+
+#
+- title: "startbootstrap"
+  subtitle: "startbootstrap creative"
+  text: ""
+  link: https://github.com/jekyll-toolbox/startbootstrap-creative
+  lang: creative
+  img: startbootstrap.png
+  category: startbootstrap
+  summary: C=startbootstrap | I=startbootstrap.png | T=startbootstrap | S=startbootstrap creative | R=startbootstrap-creative | DEBUG=_1_2
+
+#
+- title: "startbootstrap"
+  subtitle: "startbootstrap freelancer"
+  text: ""
+  link: https://github.com/jekyll-toolbox/startbootstrap-freelancer
+  lang: freelancer
+  img: startbootstrap.png
+  category: startbootstrap
+  summary: C=startbootstrap | I=startbootstrap.png | T=startbootstrap | S=startbootstrap freelancer | R=startbootstrap-freelancer | DEBUG=_1_2
+
+#
+- title: "startbootstrap"
+  subtitle: "startbootstrap grayscale"
+  text: ""
+  link: https://github.com/jekyll-toolbox/startbootstrap-grayscale
+  lang: grayscale
+  img: startbootstrap.png
+  category: startbootstrap
+  summary: C=startbootstrap | I=startbootstrap.png | T=startbootstrap | S=startbootstrap grayscale | R=startbootstrap-grayscale | DEBUG=_1_2
+
+#
+- title: "startbootstrap"
+  subtitle: "startbootstrap heroic features"
+  text: ""
+  link: https://github.com/jekyll-toolbox/startbootstrap-heroic-features
+  lang: heroic-features
+  img: startbootstrap.png
+  category: startbootstrap
+  summary: C=startbootstrap | I=startbootstrap.png | T=startbootstrap | S=startbootstrap heroic features | R=startbootstrap-heroic-features | DEBUG=_1_2
+
+#
+- title: "startbootstrap"
+  subtitle: "startbootstrap modern business"
+  text: ""
+  link: https://github.com/jekyll-toolbox/startbootstrap-modern-business
+  lang: modern-business
+  img: startbootstrap.png
+  category: startbootstrap
+  summary: C=startbootstrap | I=startbootstrap.png | T=startbootstrap | S=startbootstrap modern business | R=startbootstrap-modern-business | DEBUG=_1_2
+
+#
+- title: "startbootstrap"
+  subtitle: "startbootstrap sb admin"
+  text: ""
+  link: https://github.com/jekyll-toolbox/startbootstrap-sb-admin
+  lang: sb-admin
+  img: startbootstrap.png
+  category: startbootstrap
+  summary: C=startbootstrap | I=startbootstrap.png | T=startbootstrap | S=startbootstrap sb admin | R=startbootstrap-sb-admin | DEBUG=_1_2
+
+#
+- title: "startbootstrap"
+  subtitle: "startbootstrap sb admin 2"
+  text: ""
+  link: https://github.com/jekyll-toolbox/startbootstrap-sb-admin-2
+  lang: sb-admin-2
+  img: startbootstrap.png
+  category: startbootstrap
+  summary: C=startbootstrap | I=startbootstrap.png | T=startbootstrap | S=startbootstrap sb admin 2 | R=startbootstrap-sb-admin-2 | DEBUG=_1_2
+
+#
+- title: "startbootstrap"
+  subtitle: "startbootstrap simple sidebar"
+  text: ""
+  link: https://github.com/jekyll-toolbox/startbootstrap-simple-sidebar
+  lang: simple-sidebar
+  img: startbootstrap.png
+  category: startbootstrap
+  summary: C=startbootstrap | I=startbootstrap.png | T=startbootstrap | S=startbootstrap simple sidebar | R=startbootstrap-simple-sidebar | DEBUG=_1_2
+
+#
+- title: "startbootstrap"
+  subtitle: "startbootstrap small business"
+  text: ""
+  link: https://github.com/jekyll-toolbox/startbootstrap-small-business
+  lang: small-business
+  img: startbootstrap.png
+  category: startbootstrap
+  summary: C=startbootstrap | I=startbootstrap.png | T=startbootstrap | S=startbootstrap small business | R=startbootstrap-small-business | DEBUG=_1_2
 
 #
 - title: "startbootstrap"
@@ -64,9 +204,257 @@
   link: https://github.com/jekyll-toolbox/startbootstrap_agency
   lang: startbootstrap
   img: startbootstrap.png
-  rep: /CLOUD/Development.Jekyll/Repositories.FromGithub/repositories/jekyll-toolbox/startbootstrap_agency
-  dir: jekyll-toolbox/startbootstrap_agency
-  usr: jekyll-toolbox
   category: startbootstrap
+  summary: C=startbootstrap | I=startbootstrap.png | T=startbootstrap | S=agency | R=startbootstrap_agency | DEBUG=_1_2_3
+
+#
+- title: "theme"
+  subtitle: "theme affiliates"
+  text: ""
+  link: https://github.com/jekyll-toolbox/theme-affiliates
+  lang: affiliates
+  img: bootstrap.png
+  category: bootstrap
+  summary: C=bootstrap | I=bootstrap.png | T=theme | S=theme affiliates | R=theme-affiliates | DEBUG=t_1
+
+#
+- title: "theme"
+  subtitle: "theme agency"
+  text: ""
+  link: https://github.com/jekyll-toolbox/theme-agency
+  lang: agency
+  img: bootstrap.png
+  category: bootstrap
+  summary: C=bootstrap | I=bootstrap.png | T=theme | S=theme agency | R=theme-agency | DEBUG=t_1
+
+#
+- title: "theme"
+  subtitle: "theme alembic"
+  text: ""
+  link: https://github.com/jekyll-toolbox/theme-alembic
+  lang: alembic
+  img: bootstrap.png
+  category: bootstrap
+  summary: C=bootstrap | I=bootstrap.png | T=theme | S=theme alembic | R=theme-alembic | DEBUG=t_1
+
+#
+- title: "theme"
+  subtitle: "theme barber"
+  text: ""
+  link: https://github.com/jekyll-toolbox/theme-barber
+  lang: barber
+  img: bootstrap.png
+  category: bootstrap
+  summary: C=bootstrap | I=bootstrap.png | T=theme | S=theme barber | R=theme-barber | DEBUG=t_1
+
+#
+- title: "theme"
+  subtitle: "theme basically basic"
+  text: ""
+  link: https://github.com/jekyll-toolbox/theme-basically-basic
+  lang: basically-basic
+  img: bootstrap.png
+  category: bootstrap
+  summary: C=bootstrap | I=bootstrap.png | T=theme | S=theme basically basic | R=theme-basically-basic | DEBUG=t_1
+
+#
+- title: "theme"
+  subtitle: "theme blog"
+  text: ""
+  link: https://github.com/jekyll-toolbox/theme-blog
+  lang: blog
+  img: bootstrap.png
+  category: bootstrap
+  summary: C=bootstrap | I=bootstrap.png | T=theme | S=theme blog | R=theme-blog | DEBUG=t_1
+
+#
+- title: "theme"
+  subtitle: "theme blog centrarium"
+  text: ""
+  link: https://github.com/jekyll-toolbox/theme-blog-centrarium
+  lang: blog-centrarium
+  img: bootstrap.png
+  category: bootstrap
+  summary: C=bootstrap | I=bootstrap.png | T=theme | S=theme blog centrarium | R=theme-blog-centrarium | DEBUG=t_1
+
+#
+- title: "theme"
+  subtitle: "theme blog clean bootstrap"
+  text: ""
+  link: https://github.com/jekyll-toolbox/theme-blog-clean-bootstrap
+  lang: blog-clean-bootstrap
+  img: bootstrap.png
+  category: bootstrap
+  summary: C=bootstrap | I=bootstrap.png | T=theme | S=theme blog clean bootstrap | R=theme-blog-clean-bootstrap | DEBUG=t_1
+
+#
+- title: "theme"
+  subtitle: "theme bootstrap"
+  text: ""
+  link: https://github.com/jekyll-toolbox/theme-bootstrap
+  lang: bootstrap
+  img: bootstrap.png
+  category: bootstrap
+  summary: C=bootstrap | I=bootstrap.png | T=theme | S=theme bootstrap | R=theme-bootstrap | DEBUG=t_1_3
+
+#
+- title: "theme"
+  subtitle: "theme bootstrap modern business"
+  text: ""
+  link: https://github.com/jekyll-toolbox/theme-bootstrap-modern-business
+  lang: bootstrap-modern-business
+  img: bootstrap.png
+  category: bootstrap
+  summary: C=bootstrap | I=bootstrap.png | T=theme | S=theme bootstrap modern business | R=theme-bootstrap-modern-business | DEBUG=t_1
+
+#
+- title: "theme"
+  subtitle: "theme bootstrap4 fontawesome5 algoliainstantsearch and more"
+  text: ""
+  link: https://github.com/jekyll-toolbox/theme-bootstrap4-fontawesome5-algoliainstantsearch-and-more
+  lang: bootstrap4-fontawesome5-algoliainstantsearch-and-more
+  img: bootstrap.png
+  category: bootstrap
+  summary: C=bootstrap | I=bootstrap.png | T=theme | S=theme bootstrap4 fontawesome5 algoliainstantsearch and more | R=theme-bootstrap4-fontawesome5-algoliainstantsearch-and-more | DEBUG=t_1
+
+#
+- title: "theme"
+  subtitle: "theme bootstrap4 rcvalle"
+  text: ""
+  link: https://github.com/jekyll-toolbox/theme-bootstrap4-rcvalle
+  lang: bootstrap4-rcvalle
+  img: bootstrap.png
+  category: bootstrap
+  summary: C=bootstrap | I=bootstrap.png | T=theme | S=theme bootstrap4 rcvalle | R=theme-bootstrap4-rcvalle | DEBUG=t_1
+
+#
+- title: "theme"
+  subtitle: "theme forty"
+  text: ""
+  link: https://github.com/jekyll-toolbox/theme-forty
+  lang: forty
+  img: bootstrap.png
+  category: bootstrap
+  summary: C=bootstrap | I=bootstrap.png | T=theme | S=theme forty | R=theme-forty | DEBUG=t_1
+
+#
+- title: "theme"
+  subtitle: "theme future imperfect"
+  text: ""
+  link: https://github.com/jekyll-toolbox/theme-future-imperfect
+  lang: future-imperfect
+  img: bootstrap.png
+  category: bootstrap
+  summary: C=bootstrap | I=bootstrap.png | T=theme | S=theme future imperfect | R=theme-future-imperfect | DEBUG=t_1
+
+#
+- title: "theme"
+  subtitle: "theme highlights"
+  text: ""
+  link: https://github.com/jekyll-toolbox/theme-highlights
+  lang: highlights
+  img: bootstrap.png
+  category: bootstrap
+  summary: C=bootstrap | I=bootstrap.png | T=theme | S=theme highlights | R=theme-highlights | DEBUG=t_1
+
+#
+- title: "theme"
+  subtitle: "theme hpstr"
+  text: ""
+  link: https://github.com/jekyll-toolbox/theme-hpstr
+  lang: hpstr
+  img: bootstrap.png
+  category: bootstrap
+  summary: C=bootstrap | I=bootstrap.png | T=theme | S=theme hpstr | R=theme-hpstr | DEBUG=t_1
+
+#
+- title: "theme"
+  subtitle: "theme jasper2"
+  text: ""
+  link: https://github.com/jekyll-toolbox/theme-jasper2
+  lang: jasper2
+  img: bootstrap.png
+  category: bootstrap
+  summary: C=bootstrap | I=bootstrap.png | T=theme | S=theme jasper2 | R=theme-jasper2 | DEBUG=t_1
+
+#
+- title: "theme"
+  subtitle: "theme massively"
+  text: ""
+  link: https://github.com/jekyll-toolbox/theme-massively
+  lang: massively
+  img: bootstrap.png
+  category: bootstrap
+  summary: C=bootstrap | I=bootstrap.png | T=theme | S=theme massively | R=theme-massively | DEBUG=t_1
+
+#
+- title: "theme"
+  subtitle: "theme mediumish"
+  text: ""
+  link: https://github.com/jekyll-toolbox/theme-mediumish
+  lang: mediumish
+  img: bootstrap.png
+  category: bootstrap
+  summary: C=bootstrap | I=bootstrap.png | T=theme | S=theme mediumish | R=theme-mediumish | DEBUG=t_1
+
+#
+- title: "theme"
+  subtitle: "theme minimal mistakes"
+  text: ""
+  link: https://github.com/jekyll-toolbox/theme-minimal-mistakes
+  lang: minimal-mistakes
+  img: bootstrap.png
+  category: bootstrap
+  summary: C=bootstrap | I=bootstrap.png | T=theme | S=theme minimal mistakes | R=theme-minimal-mistakes | DEBUG=t_1
+
+#
+- title: "theme"
+  subtitle: "theme phantom"
+  text: ""
+  link: https://github.com/jekyll-toolbox/theme-phantom
+  lang: phantom
+  img: bootstrap.png
+  category: bootstrap
+  summary: C=bootstrap | I=bootstrap.png | T=theme | S=theme phantom | R=theme-phantom | DEBUG=t_1
+
+#
+- title: "theme"
+  subtitle: "theme pintereso"
+  text: ""
+  link: https://github.com/jekyll-toolbox/theme-pintereso
+  lang: pintereso
+  img: bootstrap.png
+  category: bootstrap
+  summary: C=bootstrap | I=bootstrap.png | T=theme | S=theme pintereso | R=theme-pintereso | DEBUG=t_1
+
+#
+- title: "theme"
+  subtitle: "theme singlepaged"
+  text: ""
+  link: https://github.com/jekyll-toolbox/theme-singlepaged
+  lang: singlepaged
+  img: bootstrap.png
+  category: bootstrap
+  summary: C=bootstrap | I=bootstrap.png | T=theme | S=theme singlepaged | R=theme-singlepaged | DEBUG=t_1
+
+#
+- title: "theme"
+  subtitle: "theme skinny bones"
+  text: ""
+  link: https://github.com/jekyll-toolbox/theme-skinny-bones
+  lang: skinny-bones
+  img: bootstrap.png
+  category: bootstrap
+  summary: C=bootstrap | I=bootstrap.png | T=theme | S=theme skinny bones | R=theme-skinny-bones | DEBUG=t_1
+
+#
+- title: "theme"
+  subtitle: "theme so simple"
+  text: ""
+  link: https://github.com/jekyll-toolbox/theme-so-simple
+  lang: so-simple
+  img: bootstrap.png
+  category: bootstrap
+  summary: C=bootstrap | I=bootstrap.png | T=theme | S=theme so simple | R=theme-so-simple | DEBUG=t_1
 
 #

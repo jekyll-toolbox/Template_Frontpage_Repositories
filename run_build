@@ -1,5 +1,4 @@
 #!/usr/local/bin/bash
-
 set -u
 
 _URL=https://github.com
@@ -7,8 +6,6 @@ _URL=https://github.com
 LOG() {
 	echo "$*" >&2
 }
-
-LOG "Scanning repositories from $(cd .. && pwd)"
 
 START="$(cd .. && pwd)"
 
@@ -31,6 +28,7 @@ do
 	#
 	_SUB="${_REP#*_}"				# DataStructures-and-Algorithms-01
 	_SUB="${_SUB//-/ }"				# DataStructures and Algorithms 01
+	_SUB="${_SUB//_/ }"				# DataStructures and Algorithms 01
 
 	_TYP="${_TMP%%-*}"
 	_LNG="${_TMP#*-}"
@@ -54,18 +52,27 @@ do
 	_HDR="$_TYP"
 
 	#
-	_IMG="${_LNG,,}.png"
-	[[ ! -f "assets/img/${_IMG}"	]] && _IMG=missing.png
+	_DBG=
+
+	#
+	[[ "$_HDR" == "Working" ]] && set -x
 
 	#
 	_CAT="${_HDR,,}"
-	[[ "$_CAT" =~ "learning"		]] && _CAT=learn
-	[[ "$_CAT" =~ "awesome"			]] && _CAT=learn && _IMG=awesome
-	[[ "$_CAT" =~ "koans"			]] && _CAT=test
-	[[ "$_CAT" =~ "course"			]] && _CAT=practice
-	[[ "$_CAT" =~ "workshop"		]] && _CAT=practice
-	[[ "$_CAT" =~ "missing"			]] && _CAT=default
-	[[ "$_CAT" =~ ""				]] && _CAT=default
+	[[ "learning"		=~ "$_CAT"		]] && _CAT=learn		&& _DBG=${_DBG}l
+	[[ "koans|test"		=~ "$_CAT"		]] && _CAT=test			&& _DBG=${_DBG}k
+	[[ "course|working"	=~ "$_CAT"		]] && _CAT=practice		&& _DBG=${_DBG}c
+	[[ "workshop"		=~ "$_CAT"		]] && _CAT=practice		&& _DBG=${_DBG}w
+	[[ "missing"		=~ "$_CAT"		]] && _CAT=default		&& _DBG=${_DBG}m
+	[[ "theme"			=~ "$_CAT"		]] && _CAT=bootstrap	&& _DBG=${_DBG}t
+
+	_IMG="missing.png"
+	[[ -f "assets/img/${_CAT}.png"		]] && _IMG=${_CAT}.png && _DBG=${_DBG}_1
+	[[ -f "assets/img/${_HDR,,}.png"	]] && _IMG=${_HDR,,}.png && _DBG=${_DBG}_2
+	[[ -f "assets/img/${_LNG}.png"		]] && _IMG=${_LNG}.png && _DBG=${_DBG}_3
+
+	#
+	[[ "$_HDR" == "Working" ]] && set +x
 
 	#
 	_LNK="$_URL/$_USR/$_REP"
@@ -77,10 +84,11 @@ do
 	echo "  link: $_LNK"
 	echo "  lang: $_LNG"
 	echo "  img: ${_IMG,,}"
-	echo "  rep: ${_THISREP}"
-	echo "  dir: ${_DIR}"
-	echo "  usr: ${_USR/\.\.\//}"
 	echo "  category: ${_CAT}"
+	#echo "  rep: ${_THISREP}"
+	#echo "  dir: ${_DIR}"
+	#echo "  usr: ${_USR/\.\.\//}"
+	echo "  summary: C=$_CAT | I=$_IMG | T=$_HDR | S=$_SUB | R=$_REP | DEBUG=$_DBG"
 	echo ""
 	echo "#"
 
