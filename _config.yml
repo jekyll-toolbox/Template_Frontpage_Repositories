@@ -1,6 +1,7 @@
 # Site
-name: 'Full Stack - Toolbox'
-description: 'Full Stack Toolbox - Tips, Tricks, Samples and more'
+name: 'TEMPLATE Toolbox'
+title: 'TEMPLATE Toolbox'
+description: 'TEMPLATE Toolbox - Tips, Tricks, Samples and more'
 baseurl: '/'
 
 include: ["_pages"]
@@ -8,11 +9,11 @@ include: ["_pages"]
 
 # Plugins
 #   - jekyll-feed
-plugins: 
+plugins:
 #  - jekyll-sitemap
 #  - jekyll-paginate
 #  - jekyll-seo-tag
- 
+
 # Syntax
 markdown: kramdown
 highlighter: rouge

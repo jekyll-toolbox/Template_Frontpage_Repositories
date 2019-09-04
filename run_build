@@ -1,0 +1,89 @@
+#!/usr/local/bin/bash
+
+set -u
+
+_URL=https://github.com
+
+LOG() {
+	echo "$*" >&2
+}
+
+LOG "Scanning repositories from $(cd .. && pwd)"
+
+START="$(cd .. && pwd)"
+
+find -L $START -type d -depth 1					|\
+grep -v -E "github.io|\/.git|.vscode\b"			|\
+sort											|\
+while read _THISREP
+do
+	_REP="$(basename "$_THISREP")"	# Learning-TypeScript_DataStructures-and-Algorithms-01
+	_TMP="${_REP%%_*}"				# Learning-TypeScript
+
+	_DIR="$_THISREP"
+	if [[ -L "$_THISREP" ]]; then
+		_DIR="$(readlink -n "$_THISREP")"
+		_DIR="$(cd "$(dirname "$START/$_DIR")" && pwd)/$_REP"
+	fi
+
+	_DIR="${_DIR#*repositories/}"
+
+	#
+	_SUB="${_REP#*_}"				# DataStructures-and-Algorithms-01
+	_SUB="${_SUB//-/ }"				# DataStructures and Algorithms 01
+
+	_TYP="${_TMP%%-*}"
+	_LNG="${_TMP#*-}"
+	_LNG="${_LNG,,}"
+
+	#
+	_USR="$(dirname "$_DIR")"
+
+	#
+	_TXT=""
+	[[ -f "$_THISREP/DESCRIPTION" ]]		&& _TXT=$(cat "$_THISREP/DESCRIPTION" | sed '1,$s/$/\<br\>/g')
+
+	[[ "$_LNG" = "" ]]						&& _LNG="default"
+
+	if [[ "$_TYP" = "$_LNG" ]]; then
+		_HDR="$_TYP"
+	else
+		_HDR="$_TYP $_LNG"
+	fi
+
+	_HDR="$_TYP"
+
+	#
+	_IMG="${_LNG,,}.png"
+	[[ ! -f "assets/img/${_IMG}"	]] && _IMG=missing.png
+
+	#
+	_CAT="${_HDR,,}"
+	[[ "$_CAT" =~ "learning"		]] && _CAT=learn
+	[[ "$_CAT" =~ "awesome"			]] && _CAT=learn && _IMG=awesome
+	[[ "$_CAT" =~ "koans"			]] && _CAT=test
+	[[ "$_CAT" =~ "course"			]] && _CAT=practice
+	[[ "$_CAT" =~ "workshop"		]] && _CAT=practice
+	[[ "$_CAT" =~ "missing"			]] && _CAT=default
+	[[ "$_CAT" =~ ""				]] && _CAT=default
+
+	#
+	_LNK="$_URL/$_USR/$_REP"
+
+	#
+	echo "- title: \"$_HDR\""
+	echo "  subtitle: \"$_SUB\""
+	echo "  text: \"$_TXT\""
+	echo "  link: $_LNK"
+	echo "  lang: $_LNG"
+	echo "  img: ${_IMG,,}"
+	echo "  rep: ${_THISREP}"
+	echo "  dir: ${_DIR}"
+	echo "  usr: ${_USR/\.\.\//}"
+	echo "  category: ${_CAT}"
+	echo ""
+	echo "#"
+
+	# LOG "$_THISREP | DIR=$_DIR USR=$_USR REP=$_REP LINK=$_LNK CAT=$_CAT"
+
+done  > _data/repositories.yml

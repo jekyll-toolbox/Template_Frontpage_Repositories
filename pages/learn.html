@@ -16,7 +16,7 @@ title: Learn
     {% include component/breadcrumb.html %}
 
     <div class="row">
-        {% assign items = site.data.repositories | where: "category", "learn" | sort: "title" %}
+        {% assign items = site.data.repositories | where: "category", "learn" %}
         {% for item in items %}
         <div class="{{ colclass }} portfolio-item">
             <div class="card h-100">

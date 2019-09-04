@@ -1,1 +1,16 @@
-jekyll serve --watch --incremental
+#!/usr/local/bin/bash
+
+set -x
+
+if [[ "$1" == "--no-build" ]]; then
+    shift
+else
+    if [[ "$1" == "--with-build" ]]; then
+        shift
+    fi
+
+    ./run_build
+fi
+
+rm -rf _site
+jekyll serve --watch --incremental $*

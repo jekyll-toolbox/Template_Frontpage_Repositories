@@ -1,4 +1,4 @@
-body>.container {
+body > .container {
     padding-top: 56px;
 }
 
@@ -14,4 +14,42 @@ body>.container {
 
 .portfolio-item {
     margin-bottom: 20px;
+}
+
+.img-fluid {
+    /* border: none; */
+    padding: 10px 10px 10px 10px;
+
+    width: 250px;
+    height: auto;
+}
+
+.vertical-center {
+    min-height: 10%; /* Fallback for browsers do NOT support vh unit */
+    min-height: 10vh; /* These two lines are counted as one :-)       */
+
+    display: flex;
+    align-items: center;
+}
+
+.card {
+    text-align: center;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card-body {
+    margin-top: 5px;
+    background-color: #dddddd;
+    text-align: center;
+}
+
+/*
+ *
+  */
+.my-auto {
+    margin-top: auto;
+    margin-bottom: auto;
 }

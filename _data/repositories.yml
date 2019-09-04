@@ -1,321 +1,72 @@
-- title: "Creating default"
-  subtitle: "Creating a Jekyll Template from Scratch"
-  link: https://github.com/jekyll-toolbox/Creating-a-Jekyll-Template-from-Scratch
-  lang: default
-  img: default.png
+- title: "Learning"
+  subtitle: "Learning Ionic4"
+  text: ""
+  link: https://github.com/ionic-training/Learning-Ionic4
+  lang: ionic4
+  img: ionic4.png
+  rep: /CLOUD/Development.Jekyll/Repositories.FromGithub/repositories/jekyll-toolbox/Learning-Ionic4
+  dir: ionic-training/Learning-Ionic4
+  usr: ionic-training
   category: learn
 
-- title: "THEME default"
-  subtitle: "THEME barber"
-  link: https://github.com/jekyll-toolbox/THEME-barber
-  lang: default
-  img: default.png
-  category: learn
-
-- title: "Template default"
+#
+- title: "Template"
   subtitle: "Frontpage_Repositories"
+  text: ""
   link: https://github.com/jekyll-toolbox/Template_Frontpage_Repositories
-  lang: default
-  img: default.png
+  lang: template
+  img: missing.png
+  rep: /CLOUD/Development.Jekyll/Repositories.FromGithub/repositories/jekyll-toolbox/Template_Frontpage_Repositories
+  dir: jekyll-toolbox/Template_Frontpage_Repositories
+  usr: jekyll-toolbox
+  category: template
+
+#
+- title: "Theme"
+  subtitle: "phantom"
+  text: ""
+  link: https://github.com/jekyll-toolbox/Theme_phantom
+  lang: theme
+  img: missing.png
+  rep: /CLOUD/Development.Jekyll/Repositories.FromGithub/repositories/jekyll-toolbox/Theme_phantom
+  dir: jekyll-toolbox/Theme_phantom
+  usr: jekyll-toolbox
+  category: theme
+
+#
+- title: "Theme"
+  subtitle: "so simple"
+  text: ""
+  link: https://github.com/jekyll-toolbox/Theme_so-simple
+  lang: theme
+  img: missing.png
+  rep: /CLOUD/Development.Jekyll/Repositories.FromGithub/repositories/jekyll-toolbox/Theme_so-simple
+  dir: jekyll-toolbox/Theme_so-simple
+  usr: jekyll-toolbox
+  category: theme
+
+#
+- title: "awesome"
+  subtitle: "awesome bootstrap checkbox"
+  text: ""
+  link: https://github.com/bootstrap-toolbox/awesome-bootstrap-checkbox
+  lang: bootstrap-checkbox
+  img: awesome
+  rep: /CLOUD/Development.Jekyll/Repositories.FromGithub/repositories/jekyll-toolbox/awesome-bootstrap-checkbox
+  dir: bootstrap-toolbox/awesome-bootstrap-checkbox
+  usr: bootstrap-toolbox
   category: learn
 
-- title: "Working default"
-  subtitle: "Working with Jekyll"
-  link: https://github.com/jekyll-toolbox/Working-with-Jekyll
-  lang: default
-  img: default.png
-  category: learn
+#
+- title: "startbootstrap"
+  subtitle: "agency"
+  text: ""
+  link: https://github.com/jekyll-toolbox/startbootstrap_agency
+  lang: startbootstrap
+  img: startbootstrap.png
+  rep: /CLOUD/Development.Jekyll/Repositories.FromGithub/repositories/jekyll-toolbox/startbootstrap_agency
+  dir: jekyll-toolbox/startbootstrap_agency
+  usr: jekyll-toolbox
+  category: startbootstrap
 
-- title: "jekyll default"
-  subtitle: "jekyll blank"
-  link: https://github.com/jekyll-toolbox/jekyll-blank
-  lang: default
-  img: default.png
-  category: learn
-
-- title: "jekyll default"
-  subtitle: "jekyll example"
-  link: https://github.com/jekyll-toolbox/jekyll-example
-  lang: default
-  img: default.png
-  category: learn
-
-- title: "jekyll default"
-  subtitle: "jekyll toolbox"
-  link: https://github.com/jekyll-toolbox/jekyll-toolbox
-  lang: default
-  img: default.png
-  category: learn
-
-- title: "startbootstrap default"
-  subtitle: "startbootstrap agency"
-  link: https://github.com/jekyll-toolbox/startbootstrap-agency
-  lang: default
-  img: default.png
-  category: learn
-
-- title: "startbootstrap default"
-  subtitle: "startbootstrap business casual"
-  link: https://github.com/jekyll-toolbox/startbootstrap-business-casual
-  lang: default
-  img: default.png
-  category: learn
-
-- title: "startbootstrap default"
-  subtitle: "startbootstrap coming soon"
-  link: https://github.com/jekyll-toolbox/startbootstrap-coming-soon
-  lang: default
-  img: default.png
-  category: learn
-
-- title: "startbootstrap default"
-  subtitle: "startbootstrap creative"
-  link: https://github.com/jekyll-toolbox/startbootstrap-creative
-  lang: default
-  img: default.png
-  category: learn
-
-- title: "startbootstrap default"
-  subtitle: "startbootstrap freelancer"
-  link: https://github.com/jekyll-toolbox/startbootstrap-freelancer
-  lang: default
-  img: default.png
-  category: learn
-
-- title: "startbootstrap default"
-  subtitle: "startbootstrap grayscale"
-  link: https://github.com/jekyll-toolbox/startbootstrap-grayscale
-  lang: default
-  img: default.png
-  category: learn
-
-- title: "startbootstrap default"
-  subtitle: "startbootstrap heroic features"
-  link: https://github.com/jekyll-toolbox/startbootstrap-heroic-features
-  lang: default
-  img: default.png
-  category: learn
-
-- title: "startbootstrap default"
-  subtitle: "startbootstrap modern business"
-  link: https://github.com/jekyll-toolbox/startbootstrap-modern-business
-  lang: default
-  img: default.png
-  category: learn
-
-- title: "startbootstrap default"
-  subtitle: "startbootstrap sb admin"
-  link: https://github.com/jekyll-toolbox/startbootstrap-sb-admin
-  lang: default
-  img: default.png
-  category: learn
-
-- title: "startbootstrap default"
-  subtitle: "startbootstrap sb admin 2"
-  link: https://github.com/jekyll-toolbox/startbootstrap-sb-admin-2
-  lang: default
-  img: default.png
-  category: learn
-
-- title: "startbootstrap default"
-  subtitle: "startbootstrap simple sidebar"
-  link: https://github.com/jekyll-toolbox/startbootstrap-simple-sidebar
-  lang: default
-  img: default.png
-  category: learn
-
-- title: "startbootstrap default"
-  subtitle: "startbootstrap small business"
-  link: https://github.com/jekyll-toolbox/startbootstrap-small-business
-  lang: default
-  img: default.png
-  category: learn
-
-- title: "template default"
-  subtitle: "template bootstrap4 rcvalle"
-  link: https://github.com/jekyll-toolbox/template-bootstrap4-rcvalle
-  lang: default
-  img: default.png
-  category: learn
-
-- title: "template default"
-  subtitle: "template pintereso bootstrap jekyll"
-  link: https://github.com/jekyll-toolbox/template-pintereso-bootstrap-jekyll
-  lang: default
-  img: default.png
-  category: learn
-
-- title: "template default"
-  subtitle: "template singlepaged"
-  link: https://github.com/jekyll-toolbox/template-singlepaged
-  lang: default
-  img: default.png
-  category: learn
-
-- title: "theme default"
-  subtitle: "theme affiliates"
-  link: https://github.com/jekyll-toolbox/theme-affiliates
-  lang: default
-  img: default.png
-  category: learn
-
-- title: "theme default"
-  subtitle: "theme agency"
-  link: https://github.com/jekyll-toolbox/theme-agency
-  lang: default
-  img: default.png
-  category: learn
-
-- title: "theme default"
-  subtitle: "theme alembic"
-  link: https://github.com/jekyll-toolbox/theme-alembic
-  lang: default
-  img: default.png
-  category: learn
-
-- title: "theme default"
-  subtitle: "theme basically basic"
-  link: https://github.com/jekyll-toolbox/theme-basically-basic
-  lang: default
-  img: default.png
-  category: learn
-
-- title: "theme default"
-  subtitle: "theme blog"
-  link: https://github.com/jekyll-toolbox/theme-blog
-  lang: default
-  img: default.png
-  category: learn
-
-- title: "theme default"
-  subtitle: "theme blog centrarium"
-  link: https://github.com/jekyll-toolbox/theme-blog-centrarium
-  lang: default
-  img: default.png
-  category: learn
-
-- title: "theme default"
-  subtitle: "theme blog clean bootstrap"
-  link: https://github.com/jekyll-toolbox/theme-blog-clean-bootstrap
-  lang: default
-  img: default.png
-  category: learn
-
-- title: "theme default"
-  subtitle: "theme bootstrap"
-  link: https://github.com/jekyll-toolbox/theme-bootstrap
-  lang: default
-  img: default.png
-  category: learn
-
-- title: "theme default"
-  subtitle: "theme bootstrap modern business"
-  link: https://github.com/jekyll-toolbox/theme-bootstrap-modern-business
-  lang: default
-  img: default.png
-  category: learn
-
-- title: "theme default"
-  subtitle: "theme bootstrap4 fontawesome5 algoliainstantsearch and more"
-  link: https://github.com/jekyll-toolbox/theme-bootstrap4-fontawesome5-algoliainstantsearch-and-more
-  lang: default
-  img: default.png
-  category: learn
-
-- title: "theme default"
-  subtitle: "theme bootstrap4 rcvalle"
-  link: https://github.com/jekyll-toolbox/theme-bootstrap4-rcvalle
-  lang: default
-  img: default.png
-  category: learn
-
-- title: "theme default"
-  subtitle: "theme forty"
-  link: https://github.com/jekyll-toolbox/theme-forty
-  lang: default
-  img: default.png
-  category: learn
-
-- title: "theme default"
-  subtitle: "theme future imperfect"
-  link: https://github.com/jekyll-toolbox/theme-future-imperfect
-  lang: default
-  img: default.png
-  category: learn
-
-- title: "theme default"
-  subtitle: "theme highlights"
-  link: https://github.com/jekyll-toolbox/theme-highlights
-  lang: default
-  img: default.png
-  category: learn
-
-- title: "theme default"
-  subtitle: "theme hpstr"
-  link: https://github.com/jekyll-toolbox/theme-hpstr
-  lang: default
-  img: default.png
-  category: learn
-
-- title: "theme default"
-  subtitle: "theme jasper2"
-  link: https://github.com/jekyll-toolbox/theme-jasper2
-  lang: default
-  img: default.png
-  category: learn
-
-- title: "theme default"
-  subtitle: "theme massively"
-  link: https://github.com/jekyll-toolbox/theme-massively
-  lang: default
-  img: default.png
-  category: learn
-
-- title: "theme default"
-  subtitle: "theme mediumish"
-  link: https://github.com/jekyll-toolbox/theme-mediumish
-  lang: default
-  img: default.png
-  category: learn
-
-- title: "theme default"
-  subtitle: "theme minimal mistakes"
-  link: https://github.com/jekyll-toolbox/theme-minimal-mistakes
-  lang: default
-  img: default.png
-  category: learn
-
-- title: "theme default"
-  subtitle: "theme phantom"
-  link: https://github.com/jekyll-toolbox/theme-phantom
-  lang: default
-  img: default.png
-  category: learn
-
-- title: "theme default"
-  subtitle: "theme pintereso"
-  link: https://github.com/jekyll-toolbox/theme-pintereso
-  lang: default
-  img: default.png
-  category: learn
-
-- title: "theme default"
-  subtitle: "theme singlepaged"
-  link: https://github.com/jekyll-toolbox/theme-singlepaged
-  lang: default
-  img: default.png
-  category: learn
-
-- title: "theme default"
-  subtitle: "theme skinny bones"
-  link: https://github.com/jekyll-toolbox/theme-skinny-bones
-  lang: default
-  img: default.png
-  category: learn
-
-- title: "theme default"
-  subtitle: "theme so simple"
-  link: https://github.com/jekyll-toolbox/theme-so-simple
-  lang: default
-  img: default.png
-  category: learn
+#
